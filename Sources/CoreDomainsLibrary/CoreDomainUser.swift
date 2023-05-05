@@ -11,7 +11,7 @@ public struct CoreDomainUser {
     public var age:Int?
     public var className:String?
 
-    public init(name:String?,age:Int?,className:String?) {
+    public init(name:String? = nil,age:Int? = nil,className:String? = nil) {
         self.name = name
         self.age = age
         self.className = className
